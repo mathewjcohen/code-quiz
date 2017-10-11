@@ -1,0 +1,54 @@
+@keyframes headerSlideIn{
+  from{
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0)    
+  }
+}
+header{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+  font-size: 2em;
+  height: 1.5em;
+  padding: 1em;
+  background: cadetblue;
+  animation: headerSlideIn 1s;
+}
+
+header .container{
+  width: 1024px;
+  margin: 0 auto;
+}
+#brand_logo{
+  width: auto;
+  overflow: hidden;
+}
+#brand_logo a{  
+  text-decoration: none;
+  color: #fff;
+  transition: all ease-in-out .15s;
+}
+#brand_logo a:hover{
+  font-weight: bold;
+  color: #fff;
+}
+
+#category_select{
+  float: right;
+}
+#category_select select{
+  border: none;
+  padding: .5em 1em;
+  font-size: .75em;
+  background: cadetblue;
+  color: #fff;
+  outline: none;
+}
+#category_select select:hover{
+  background: cadetblue;
+  color: #fff;
+  outline: none;
+}
