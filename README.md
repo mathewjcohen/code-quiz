@@ -10,13 +10,13 @@
 # Data
 > Description of fields 
 
-question_id
-question_text
-question_choice_a
-question_choice_b
-question_choice_c
-question_choice_d
-question_answer
+- question_id
+- question_text
+- question_choice_a
+- question_choice_b
+- question_choice_c
+- question_choice_d
+- question_answer
 
 # Templates
 > HTML pages displaying questions and forms
