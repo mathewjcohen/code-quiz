@@ -8,11 +8,12 @@
 }
 .card_wrap {
   margin: 0 auto;
+  margin-top: 7em;
   width: 75%;
   background: #fff;
   color: #333;
   box-shadow: 15px 15px 10px rgba(0,0,0,.2);
-  animation: cardAnim 1s;
+  animation: cardAnim .75s;
 }
 
 .card_title {
@@ -33,31 +34,19 @@
   );
 }
 .choice_wrap{
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 1em 0;
 }
-
-.quiz_submit{
-  width: 100%;
-  margin: 0 auto;
-  padding: 3em 0;
-  text-align: center;
-}
-@keyframes quizBtn{
-  from{
-    transform: translateX(3000px);
-  }
-  to{
-    transform: translateX(0);
-  }
-}
-.quiz_submit button{
+.choice{
   border: none;
+  width: 100%;
+  text-align: center;
+  padding: 1em 1.5em;
+  color: #fff;
+  font-size: 1em;
   background: coral;
-  padding: .5em 2em;
-  color: white;
-  font-size: 2em;
-  text-transform: uppercase;
   cursor: pointer;
-  animation: quizBtn 1s;
+}
+.choice:hover{
+  outline: 5px solid cadetblue;
 }

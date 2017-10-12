@@ -9,13 +9,16 @@
   }
 }
 header{
+  position: fixed;
+  width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5em;
+  line-height: 1;
   font-size: 2em;
-  height: 1.5em;
+  height: 1em;
   padding: 1em;
   background: cadetblue;
-  animation: headerSlideIn 1s;
+  animation: headerSlideIn 1.75s;
+  z-index: 10;
 }
 
 header .container{
@@ -41,7 +44,7 @@ header .container{
 }
 #category_select select{
   border: none;
-  padding: .5em 1em;
+  padding: .25em 1em;
   font-size: .75em;
   background: cadetblue;
   color: #fff;

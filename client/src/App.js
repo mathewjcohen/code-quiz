@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
 
     this.state = {
-      questions: [
+      qArray: [
         {
           question: "The answer to life, the universe, and everything.",
           answers: [
@@ -30,7 +30,7 @@ class App extends Component {
       <div>
         <Header />
         <div id="quiz_wrap">
-          <QuizCard question={this.state.questions[0]} />
+          <QuizCard item={this.state.qArray[0]} />
         </div>
         <Footer/>
       </div>

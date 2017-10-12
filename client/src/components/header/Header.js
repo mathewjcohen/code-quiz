@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import "./Header.css";
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <div class="container">
+        <div className="container">
           <span id="brand_logo"><a href='/'>CODE QUIZ</a></span>
           <div id="category_select">
             <select>
