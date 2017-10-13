@@ -10,7 +10,7 @@ class Header extends Component {
             <a className="brand-logo" href="/">
               CODE QUIZ
             </a>
-            <a className="right dropdown-button transparent" data-activates="dropdown1">
+            <a className="right dropdown-button transparent hide-on-med-and-down" data-activates="dropdown1">
               Choose a Category <i className="fa fa-caret-down" aria-hidden="true"></i>
             </a>
             <ul id="dropdown1" className="dropdown-content">

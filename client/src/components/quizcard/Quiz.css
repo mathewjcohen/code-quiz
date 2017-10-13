@@ -38,6 +38,7 @@
 }
 .choice{
   width: 100%;
+  height: auto;
   text-align: center;
 }
 
@@ -60,4 +61,11 @@
   padding: 2em 4em;
   text-align: center;
   font-size: 2em;
+}
+
+
+@media screen and (max-width: 960px){
+  .card_wrap{
+    width: 100%;
+  }
 }

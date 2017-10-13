@@ -13,3 +13,8 @@ nav{
   background: cadetblue;
   animation: headerSlideIn 1.75s;
 }
+
+
+@media screen and (max-width: 960px){
+  
+}
