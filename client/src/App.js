@@ -19,6 +19,26 @@ class App extends Component {
             "Who are you and why are you in my house!?"
           ],
           answer: "42, obviously."
+        },
+        {
+          question: "How many licks does it take to get to the center of a tootsie pop?",
+          answers: [
+            "One",
+            "Three",
+            "Ten",
+            "Like, a billion."
+          ],
+          answer: "Three"
+        },
+        {
+          question: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+          answers: [
+            "About 350lbs.",
+            "What?",
+            "350 of them.",
+            "About 700lbs."
+          ],
+          answer: "About 700lbs."
         }
       ]
     };
@@ -30,7 +50,7 @@ class App extends Component {
       <div>
         <Header />
         <div id="quiz_wrap">
-          <QuizCard item={this.state.qArray[0]} />
+          <QuizCard items={this.state.qArray} />
         </div>
         <Footer/>
       </div>

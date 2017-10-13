@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./Quiz.css";
 
-class Right extends Component {
-
+class QPop extends Component {
+  
   render() {
     return (
       <div className="answer_pop_wrap">
         <div className="answer_pop">
-          <p>You answered right!</p>
-          <a href="/" className="btn">
+          <p>You answered {this.props.result}!</p>
+          <a onClick={this.props.closeWindow} className="btn">
             close
           </a>
         </div>
@@ -17,4 +17,4 @@ class Right extends Component {
   }
 }
 
-export default Right;
+export default QPop;
