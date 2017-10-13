@@ -1,12 +1,20 @@
-import React from 'react';
-import './Quiz.css';
+import React, { Component } from "react";
+import "./Quiz.css";
 
-const Right = () => {
-  return(
-    <div id="right">
-      You got it right!
-    </div>
-  )
+class Right extends Component {
+
+  render() {
+    return (
+      <div className="answer_pop_wrap">
+        <div className="answer_pop">
+          <p>You answered right!</p>
+          <a href="/" className="btn">
+            close
+          </a>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Right;

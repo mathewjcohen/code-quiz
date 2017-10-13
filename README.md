@@ -1,5 +1,5 @@
 # Overview
-> Simple quiz app built using Flask and Python
+> Simple quiz app built using Flask and Python - React on the Front-End
 
 
 # Functionality

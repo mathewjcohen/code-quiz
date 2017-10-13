@@ -8,50 +8,8 @@
     transform: translateY(0)    
   }
 }
-header{
-  position: fixed;
-  width: 100%;
+nav{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1;
-  font-size: 2em;
-  height: 1em;
-  padding: 1em;
   background: cadetblue;
   animation: headerSlideIn 1.75s;
-  z-index: 10;
-}
-
-header .container{
-  width: 1024px;
-  margin: 0 auto;
-}
-#brand_logo{
-  width: auto;
-  overflow: hidden;
-}
-#brand_logo a{  
-  text-decoration: none;
-  color: #fff;
-  transition: all ease-in-out .15s;
-}
-#brand_logo a:hover{
-  font-weight: bold;
-  color: #fff;
-}
-
-#category_select{
-  float: right;
-}
-#category_select select{
-  border: none;
-  padding: .25em 1em;
-  font-size: .75em;
-  background: cadetblue;
-  color: #fff;
-  outline: none;
-}
-#category_select select:hover{
-  background: cadetblue;
-  color: #fff;
-  outline: none;
 }

@@ -5,8 +5,8 @@ import QuizCard from './components/quizcard/Quiz';
 import Footer from './components/footer/Footer';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {
       qArray: [

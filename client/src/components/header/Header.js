@@ -4,19 +4,29 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <header>
+      <nav>
         <div className="container">
-          <span id="brand_logo"><a href='/'>CODE QUIZ</a></span>
-          <div id="category_select">
-            <select>
-              <option>Category 1</option>
-              <option>Category 2</option>
-              <option>Category 3</option>
-              <option>Category 4</option>
-            </select>
+          <div className="nav-wrapper">
+            <a className="brand-logo" href="/">
+              CODE QUIZ
+            </a>
+            <a className="right dropdown-button transparent" data-activates="dropdown1">
+              Choose a Category <i className="fa fa-caret-down" aria-hidden="true"></i>
+            </a>
+            <ul id="dropdown1" className="dropdown-content">
+              <li>
+                <a href="/">Category 1</a>
+              </li>
+              <li>
+                <a href="/">Category 2</a>
+              </li>
+              <li>
+                <a href="/">Category 3</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </header>
+      </nav>
     );
   }
 }

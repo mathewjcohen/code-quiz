@@ -8,7 +8,6 @@
 }
 .card_wrap {
   margin: 0 auto;
-  margin-top: 7em;
   width: 75%;
   background: #fff;
   color: #333;
@@ -38,15 +37,27 @@
   padding: 1em 0;
 }
 .choice{
-  border: none;
   width: 100%;
   text-align: center;
-  padding: 1em 1.5em;
-  color: #fff;
-  font-size: 1em;
-  background: coral;
-  cursor: pointer;
 }
-.choice:hover{
-  outline: 5px solid cadetblue;
+
+.answer_pop_wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.25);
+}
+.answer_pop{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  background: #fff;
+  color: #333;
+  padding: 2em 4em;
+  text-align: center;
+  font-size: 2em;
 }
