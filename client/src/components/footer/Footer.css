@@ -26,6 +26,7 @@
 #footer .lana, #footer .mat{
   display: inline-block;
   vertical-align: top;
+  padding: 0 1em;
 }
 
 #footer .copyright{
